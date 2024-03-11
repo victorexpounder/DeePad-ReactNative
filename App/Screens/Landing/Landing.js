@@ -60,10 +60,8 @@ export default function Landing({navigation}) {
         </View>
       </TouchableHighlight>
       
-      <StatusBar
-         backgroundColor="#fff"
-         barStyle="light-content"
-      />
+      <StatusBar translucent/>
+      
     </SafeAreaView>
   )
 }

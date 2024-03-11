@@ -3,8 +3,11 @@ const colors = {
     light: '#fff',
     secondary: '#DEDC52',
     baseGray: '#DADADA',
-    primaryBackground: '#EFE9F7',
+    primaryBackground: '#FAF8FC',
+    dimPrimary: '#EFE9F7',
+    dimSecondary: '#FDEBAB',
     darkGray : '#827D89'
+
 }
 
 export default colors

@@ -28,11 +28,11 @@ const styles = StyleSheet.create({
         textAlign: 'center'
     },
     headText:{
-        fontSize: 32,
+        fontSize: 28,
         fontWeight: '700'
     },
     subText:{
-        fontSize: 20,
+        fontSize: 18,
         fontWeight: '400',
         textAlign: 'center',
         color: colors.darkGray

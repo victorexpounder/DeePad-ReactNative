@@ -40,28 +40,28 @@ const CustomTabBar = ({ state, descriptors, navigation }) => {
         switch (route.name) {
           case 'Home':
             iconComponent = (
-              <MaterialCommunityIcons name={isFocused ? 'home-variant' : 'home-variant-outline'} size={30} color={isFocused ? '#673ab7' : '#222'} />
+              <MaterialCommunityIcons name={isFocused ? 'home-variant' : 'home-variant-outline'} size={25} color={isFocused ? '#673ab7' : '#222'} />
               
             );
             break;
           case 'Finished':
             iconComponent = (
-              <MaterialCommunityIcons name={isFocused ? 'clipboard-check' : 'clipboard-check-outline'} size={30} color={isFocused ? '#673ab7' : '#222'} />
+              <MaterialCommunityIcons name={isFocused ? 'clipboard-check' : 'clipboard-check-outline'} size={25} color={isFocused ? '#673ab7' : '#222'} />
             );
             break;
           case 'CreateNote':
             iconComponent = (
-              <Ionicons name="add-circle" size={85} color={ '#673ab7' }  />
+              <MaterialCommunityIcons name="plus-circle" size={70} color={ '#673ab7' }  />
             );
             break;
           case 'Search':
             iconComponent = (
-              <Ionicons name={isFocused ? 'search' : 'search-outline'} size={30} color={isFocused ? '#673ab7' : '#222'} />
+              <Ionicons name={isFocused ? 'search' : 'search-outline'} size={25} color={isFocused ? '#673ab7' : '#222'} />
             );
             break;
           case 'Settings':
             iconComponent = (
-              <Ionicons name={isFocused ? 'settings' : 'settings-outline'} size={30} color={isFocused ? '#673ab7' : '#222'} />
+              <Ionicons name={isFocused ? 'settings' : 'settings-outline'} size={25} color={isFocused ? '#673ab7' : '#222'} />
             );
             break;
           default:
@@ -81,7 +81,7 @@ const CustomTabBar = ({ state, descriptors, navigation }) => {
             style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}
           >
             {label == 'CreateNote'? 
-                <View style={{backgroundColor: colors.primaryBackground,  borderRadius: 50, position: 'absolute', top: -50,  }}>
+                <View style={{backgroundColor: colors.primaryBackground,  borderRadius: 50, position: 'absolute', top: -50, width: 'auto' }}>
                     {iconComponent} 
                 </View>
                 :
