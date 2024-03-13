@@ -20,7 +20,7 @@ const Home = ({navigation}) => {
 
       }
 
-      <StatusBar  style={{backgroundColor: 'transparent'}} />
+    
     </SafeAreaView>
   )
 }
