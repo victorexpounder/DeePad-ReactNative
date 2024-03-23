@@ -20,7 +20,7 @@ const TabNavigator = () => {
     >
       <Tab.Screen name="Home" component={Home}  />
       <Tab.Screen name="Finished" component={Finished}  />
-      <Tab.Screen name="CreateNote" component={CreateNote} />
+      <Tab.Screen name="CreateNote" component={CreateNote}/>
       <Tab.Screen name="Search" component={Search} />
       <Tab.Screen name="Settings" component={SettingsPage} />
 

@@ -9,6 +9,7 @@ import Profile from './Screens/Profile';
 import Home from './Screens/Home/Home';
 import StackNavigator from './Navigators/StackNavigator';
 import TabNavigator from './Navigators/TabNavigator';
+import CreateNoteStack from './Navigators/CreateNoteStack';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -24,7 +25,14 @@ export default function App() {
             headerShown: false,
           }}
         />
-         
+
+        <Stack.Screen 
+          name="CreateNoteStack" 
+          component={CreateNoteStack} 
+          options={{
+            headerShown: false,
+          }}
+        />
 
         <Stack.Screen
           name="Dashboard"

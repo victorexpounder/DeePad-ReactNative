@@ -6,6 +6,7 @@ const colors = {
     primaryBackground: '#FAF8FC',
     dimPrimary: '#EFE9F7',
     dimSecondary: '#FDEBAB',
+    success: '#60D889',
     darkGray : '#827D89'
 
 }
