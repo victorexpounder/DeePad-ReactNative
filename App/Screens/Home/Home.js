@@ -10,7 +10,7 @@ import FilledHome from './FilledHome'
 
 const Home = ({navigation}) => {
     const {container, bodyView, tabView, bodyContent, image, textCon, headText, subText} = styles
-    const data = true
+    const data = false
   return (
     <SafeAreaView style={container}>
       {data?
